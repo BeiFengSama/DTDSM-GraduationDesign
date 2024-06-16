@@ -1,0 +1,60 @@
+.pre_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 每行三个元素 */
+    margin-top: 125px;
+    margin-left: 5%;
+    width: 90%;
+    height: 550px;
+    border-radius: 20px; /* 合并四个单独的边角半径设置 */
+    background-color: #d1d1d1;
+}
+
+/* 让 pre_btn_group 内的按钮纵向排列 */
+.pre_btn_group {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px; /* 设置按钮之间的间距 */
+}
+.pre_info
+{
+    margin-top: 50px;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px; /* 合并四个单独的边角半径设置 */
+    background-color: #132845;
+}
+.pre_show
+{
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px; /* 合并四个单独的边角半径设置 */
+    background-color: #ffffff;
+}
+.pre_info > p
+{
+    font-size: medium;
+    letter-spacing: 5px;
+    color: aliceblue;
+}
+.pre_btn
+{
+    padding: 10px;
+    font-size: large;
+    color: aliceblue;
+    background-color: #152744;
+    border: none;
+    border-radius: 15px; /* 合并四个单独的边角半径设置 */
+}
+.pre_btn.active {
+    background-color: #5f80ae; /* 按钮激活时的背景色 */
+    color: white; /* 按钮激活时的文字颜色 */
+}
+
